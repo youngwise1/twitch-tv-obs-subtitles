@@ -52,7 +52,7 @@ async function main() {
     updateSubtitleStyle(subtitleStyle);
 
     // Set Language
-    if (language) spoken.recognition.lang = language=PTBR;
+    if (language) spoken.recognition.lang = language = PTBR;
 
     // Listen to Microphone
     if (mic == 'off') return;
